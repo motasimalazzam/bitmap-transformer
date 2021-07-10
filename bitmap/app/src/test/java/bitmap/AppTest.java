@@ -19,7 +19,7 @@ class AppTest {
         assertEquals(testFile.saveFile(),true,"File not saved");
     }
     @Test
-    public void testPurpleIze() {
+    public void testGray() {
         testFile.readFile();
         assertEquals(testFile.grayScale(),true);
     }
